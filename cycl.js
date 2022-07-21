@@ -1,10 +1,9 @@
-let arr = [30, 50, 77, 53, 50];
-let sum = 0;
+let arr = [-1, -2, 3 , ]
+
 function count(arr) {
+    let sum = 0
     for (i = 0; i < arr.length; i++) {
-        sum += arr[i];
-        if (arr[i] < 0) 
-        return 36
+        sum = sum + Math.abs( arr[i]) 
     }
     return Math.pow(sum, 2)
 }
